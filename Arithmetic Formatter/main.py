@@ -55,4 +55,6 @@ def dec_with_answer(problems):
 
     return f"{first_line.rstrip()}\n{second_line.rstrip()}\n{third_line.rstrip()}\n{fourth_line.rstrip()}"
 
-print(f'\n{arithmetic_arranger(["3801 - 2", "123 + 49"])}')
+
+if __name__ == "__main__":
+    print(f'\n{arithmetic_arranger(["3801 - 2", "123 + 49"])}')
